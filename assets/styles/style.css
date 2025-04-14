@@ -15,6 +15,13 @@ a {
     text-align: center;
 }
 
+.gameholder img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
 .gameholder.compact .gt {
     display: none;
 }
