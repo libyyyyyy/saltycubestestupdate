@@ -13,5 +13,6 @@
 gametitle {
     font-size: 12px;
     font-family: monospace;
+    font-weight: bold;
     color: white;
 }
