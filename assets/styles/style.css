@@ -10,6 +10,15 @@
     text-align: center;
 }
 
+.gameholder.compact .gt {
+    display: none;
+}
+
+.gameholder.compact {
+    height: 140px;
+    padding: 10px 5px;
+}
+
 gt {
     font-size: 12px;
     font-family: monospace;
