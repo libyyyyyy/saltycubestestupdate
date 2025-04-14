@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <button onclick="toggleCompactMode()">Toggle Compact Mode</button>
+    <div id="controls">
+        <input type="text" id="searchInput" placeholder="Search games...">
+        <button onclick="toggleCompactMode()">Compact Mode</button>
+        <button onclick="sortGames('asc')">A → Z</button>
+        <button onclick="sortGames('desc')">Z → A</button>
+    </div>
     <br>
     <div id="gamesContainer"></div>
     <script src="assets/scripts/script.js"></script>
