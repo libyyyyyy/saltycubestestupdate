@@ -2,13 +2,13 @@
 const gameList = [
     {
       name: "Baldi's Basics",
-      image: "/assets/images/baldisbasics.png",
-      link: "/assets/games/baldisbasics/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/baldisbasics.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html"
     },
     {
       name: "Another Game",
-      image: "/assets/images/anothergame.png",
-      link: "/assets/games/anothergame/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/anothergame.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/anothergame/index.html"
     },
     // Add more games here
   ];
