@@ -1,25 +1,24 @@
 let allGames = [
     {
       name: "Baldi's Basics",
-      image: `${baseUrl}/assets/images/baldisbasics.png`,
-      link: `${baseUrl}/assets/games/baldisbasics/index.html`
+      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/baldisbasics.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/baldisbasics/index.html"
     },
     {
       name: "Another Game",
-      image: `${baseUrl}/assets/images/anothergame.png`,
-      link: `${baseUrl}/assets/games/anothergame/index.html`
+      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/anothergame.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/anothergame/index.html"
     },
     {
       name: "Cool Math Clone",
-      image: "/assets/images/coolmath.png",
-      link: "assets/games/coolmath/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/coolmath.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/coolmath/index.html"
     }
     // Add more games here...
   ];
   
   let currentSort = 'asc';
   let currentSearch = '';
-  const baseUrl = 'https://libyyyyyy.github.io/saltycubestestupdate/'; // Base URL
   
   document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
