@@ -30,6 +30,7 @@ a {
 .gameholder.compact {
     height: 140px;
     padding: 5px 5px;
+    margin: 2px;
 }
 
 .gt {
