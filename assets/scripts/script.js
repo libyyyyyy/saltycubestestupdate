@@ -1,13 +1,13 @@
 let allGames = [
     {
       name: "Baldi's Basics",
-      image: "/assets/images/baldisbasics.png",
-      link: "assets/games/baldisbasics/index.html"
+      image: `${baseUrl}/assets/images/baldisbasics.png`,
+      link: `${baseUrl}/assets/games/baldisbasics/index.html`
     },
     {
       name: "Another Game",
-      image: "/assets/images/anothergame.png",
-      link: "assets/games/anothergame/index.html"
+      image: `${baseUrl}/assets/images/anothergame.png`,
+      link: `${baseUrl}/assets/games/anothergame/index.html`
     },
     {
       name: "Cool Math Clone",
