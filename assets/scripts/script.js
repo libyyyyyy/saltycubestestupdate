@@ -1,18 +1,18 @@
 let allGames = [
     {
       name: "Baldi's Basics",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/baldisbasics.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/baldisbasics/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/baldisbasics.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html"
     },
     {
       name: "Another Game",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/anothergame.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/anothergame/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/anothergame.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/anothergame/index.html"
     },
     {
       name: "Cool Math Clone",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate//assets/images/coolmath.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate//assets/games/coolmath/index.html"
+      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/coolmath.png",
+      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/coolmath/index.html"
     }
     // Add more games here...
   ];
@@ -23,7 +23,7 @@ let allGames = [
   document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
     searchInput.addEventListener("input", e => {
-      currentSearch = e.target.value.trim().toLowerCase(); // Get input value
+      currentSearch = e.target.value.trim().toLowerCase();
       renderGames();
     });
   
@@ -37,7 +37,7 @@ let allGames = [
   
   function renderGames() {
     const container = document.getElementById("gamesContainer");
-    container.innerHTML = ""; // Clear previous content
+    container.innerHTML = "";
   
     let filtered = allGames.filter(game => {
       return normalizeString(game.name).includes(normalizeString(currentSearch));
@@ -56,7 +56,7 @@ let allGames = [
       div.className = "gameholder";
   
       const a = document.createElement("a");
-      a.href = baseUrl + game.link;  // Prepend the base URL
+      a.href = game.link;
   
       const img = document.createElement("img");
       img.src = game.image;
@@ -79,7 +79,6 @@ let allGames = [
     });
   }
   
-  // Normalize function to make search more broad (removes apostrophes, etc.)
   function normalizeString(str) {
     return str
       .toLowerCase() // Convert to lowercase
