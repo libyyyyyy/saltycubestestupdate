@@ -1,29 +1,30 @@
 let allGames = [
     {
       name: "Baldi's Basics",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/baldisbasics.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html"
+      image: "/assets/images/baldisbasics.png",
+      link: "assets/games/baldisbasics/index.html"
     },
     {
       name: "Another Game",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/anothergame.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/anothergame/index.html"
+      image: "/assets/images/anothergame.png",
+      link: "assets/games/anothergame/index.html"
     },
     {
       name: "Cool Math Clone",
-      image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/coolmath.png",
-      link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/coolmath/index.html"
+      image: "/assets/images/coolmath.png",
+      link: "assets/games/coolmath/index.html"
     }
     // Add more games here...
   ];
   
   let currentSort = 'asc';
   let currentSearch = '';
+  const baseUrl = 'https://libyyyyyy.github.io/saltycubestestupdate/'; // Base URL
   
   document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
     searchInput.addEventListener("input", e => {
-      currentSearch = e.target.value.toLowerCase();
+      currentSearch = e.target.value.trim().toLowerCase(); // Get input value
       renderGames();
     });
   
@@ -39,13 +40,13 @@ let allGames = [
     const container = document.getElementById("gamesContainer");
     container.innerHTML = ""; // Clear previous content
   
-    let filtered = allGames.filter(game =>
-      game.name.toLowerCase().includes(currentSearch)
-    );
+    let filtered = allGames.filter(game => {
+      return normalizeString(game.name).includes(normalizeString(currentSearch));
+    });
   
     filtered.sort((a, b) => {
-      const nameA = a.name.toLowerCase();
-      const nameB = b.name.toLowerCase();
+      const nameA = normalizeString(a.name);
+      const nameB = normalizeString(b.name);
   
       if (currentSort === 'asc') return nameA.localeCompare(nameB);
       else return nameB.localeCompare(nameA);
@@ -56,7 +57,7 @@ let allGames = [
       div.className = "gameholder";
   
       const a = document.createElement("a");
-      a.href = game.link;
+      a.href = baseUrl + game.link;  // Prepend the base URL
   
       const img = document.createElement("img");
       img.src = game.image;
@@ -78,3 +79,14 @@ let allGames = [
       game.classList.toggle('compact');
     });
   }
+  
+  // Normalize function to make search more broad (removes apostrophes, etc.)
+  function normalizeString(str) {
+    return str
+      .toLowerCase() // Convert to lowercase
+      .replace(/['’]/g, "") // Remove apostrophes (both straight and curly)
+      .replace(/[-\s]/g, "") // Remove hyphens and spaces
+      .normalize("NFD") // Normalize characters like accents
+      .replace(/[\u0300-\u036f]/g, ""); // Remove accents
+  }
+  
