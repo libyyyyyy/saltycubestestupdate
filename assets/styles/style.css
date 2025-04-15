@@ -15,6 +15,18 @@ a {
     text-align: center;
 }
 
+#popularGamesContainer .gameholder {
+    border: 5px solid rgb(255, 101, 12);
+    border-radius: 5px;
+    background-color: rgb(255, 106, 26);
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
 .gameholder img {
     width: 120px;
     height: 120px;

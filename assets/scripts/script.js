@@ -128,7 +128,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderGames(); // <== You were missing this!
+  renderPopularGames();
 });
+
+function sortByPopularity() {
+  allGames.sort((a, b) => {
+    const aClicks = parseInt(localStorage.getItem(`clicks_${a.name}`)) || 0;
+    const bClicks = parseInt(localStorage.getItem(`clicks_${b.name}`)) || 0;
+    return bClicks - aClicks;
+  });
+  renderGames();
+}
 
 function renderGames() {
   const container = document.getElementById("gamesContainer");
@@ -184,7 +194,66 @@ function renderGames() {
     });
 
     container.appendChild(row);
+
+    const a = document.createElement("a");
+    a.href = game.link;
+    a.target = "_blank"; // optional: open in new tab
+
+    // Track clicks
+    a.addEventListener("click", () => {
+      const key = `clicks_${game.name}`;
+      let count = parseInt(localStorage.getItem(key)) || 0;
+      localStorage.setItem(key, count + 1);
+    });
   }
+}
+
+function renderPopularGames() {
+  const container = document.getElementById("popularGamesContainer");
+  container.innerHTML = ""; // Clear existing
+
+  // Clone and sort based on localStorage click counts
+  const sortedGames = [...allGames].sort((a, b) => {
+    const aClicks = parseInt(localStorage.getItem(`clicks_${a.name}`)) || 0;
+    const bClicks = parseInt(localStorage.getItem(`clicks_${b.name}`)) || 0;
+    return bClicks - aClicks;
+  });
+
+  // Show only the top 5
+  const top5 = sortedGames.slice(0, 5);
+
+  top5.forEach(game => {
+    const div = document.createElement("div");
+    div.className = "gameholder";
+
+    const a = document.createElement("a");
+    a.href = game.link;
+    a.target = "_blank";
+
+    // Click tracker
+    a.addEventListener("click", () => {
+      const key = `clicks_${game.name}`;
+      const count = parseInt(localStorage.getItem(key)) || 0;
+      localStorage.setItem(key, count + 1);
+      renderPopularGames(); // update rankings live!
+    });
+
+    const img = document.createElement("img");
+    img.src = game.image;
+    img.alt = game.name;
+    img.style.width = "100px";
+    img.style.height = "100px";
+    img.style.marginTop = "10px";
+
+    const span = document.createElement("span");
+    span.className = "gt";
+    span.textContent = game.name;
+
+    a.appendChild(img);
+    div.appendChild(a);
+    div.appendChild(span);
+    container.appendChild(div);
+  });
 }
 
 function toggleCompactMode() {
