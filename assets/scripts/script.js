@@ -60,7 +60,6 @@ let allGames = [
       currentSearch = e.target.value.trim().toLowerCase();
       renderGames();
   })
-});
   
     function renderGames() {
         const container = document.getElementById("gamesContainer");
