@@ -46,7 +46,7 @@ let allGames = [
         name: "Five Nights at Freddy's",
         image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf1.png",
         link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf1/index.html"
-    },
+    }
     
     // Add more games here...
   ];
@@ -59,7 +59,8 @@ let allGames = [
     searchInput.addEventListener("input", e => {
       currentSearch = e.target.value.trim().toLowerCase();
       renderGames();
-    });
+  })
+});
   
     function renderGames() {
         const container = document.getElementById("gamesContainer");
@@ -134,4 +135,3 @@ let allGames = [
       .normalize("NFD") // Normalize characters like accents
       .replace(/[\u0300-\u036f]/g, ""); // Remove accents
   }
-  
