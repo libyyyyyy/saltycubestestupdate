@@ -1,228 +1,228 @@
 let allGames = [
   {
     name: "Baldi's Basics",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/baldisbasics.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/baldisbasics.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/baldisbasics/index.html",
     status: "ok"
   },
   {
     name: "Bloons TD 4",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/btd4.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd4/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/btd4.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/btd4/index.html",
     status: "ok"
   },
   {
     name: "Bloons TD 5",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/btd5.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd5/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/btd5.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/btd5/index.html",
     status: "ok"
   },
   {
     name: "Cookie Clicker",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/cookieclicker.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/cc/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/cookieclicker.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/cc/index.html",
     status: "ok"
   },
   {
     name: "Eaglercraft 1.5.2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.5.2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/eaglercraft.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/eaglercraft1.5.2/index.html",
     keywords: ["minecraft"],
     status: "ok"
   },
   {
     name: "Eaglercraft 1.8.8",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.8.8/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/eaglercraft.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/eaglercraft1.8.8/index.html",
     keywords: ["minecraft"],
     status: "ok"
   },
   {
     name: "Eaglercraft 1.12.2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.12.2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/eaglercraft.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/eaglercraft1.12.2/index.html",
     keywords: ["minecraft"],
     status: "ok"
   },
   {
     name: "fataltotheflesh",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fataltotheflesh.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fataltotheflesh/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fataltotheflesh.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fataltotheflesh/index.html",
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's 1",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf1.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf1/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnaf1.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnaf1/index.html",
     keywords: ["fnaf", "fnaf1"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's 2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnaf2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnaf2/index.html",
     keywords: ["fnaf", "fnaf2"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's 3",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf3.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf3/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnaf3.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnaf3/index.html",
     keywords: ["fnaf", "fnaf3"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's 4",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnaf4.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnaf4/index.html",
     keywords: ["fnaf", "fnaf4"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's 4 Halloween Edition",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4he.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnaf4he.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnaf4/index.html",
     keywords: ["fnaf", "fnaf4", "fnaf4he"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's World",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafworld.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafworld/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnafworld.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnafworld/index.html",
     keywords: ["fnaf", "fnafworld", "fnafworld"],
     status: "ok"
   },
   {
     name: "Five Nights at Freddy's Ultimate Custom Night",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafucn.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafucn/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/fnafucn.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/fnafucn/index.html",
     keywords: ["fnaf", "fnafucn", "ucn"],
     status: "ok"
   },
   {
     name: "Henry Stickmin: Breaking The Bank",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsbtb.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsbtb/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsbtb.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/hsbtb/index.html",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Escaping The Prison",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsetp.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsetp/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsetp.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/hsetp/index.html",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Fleeing The Complex",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsftc.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsftc/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsftc.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/hsftc/index.html",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Infiltrating The Airship",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsita.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsita/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsita.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/hsita/index.html",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Stealing The Diamond",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsstd.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsstd/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsstd.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/hsstd/index.html",
     status: "ok"
   },
   {
     name: "Learn To Fly 1",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf1.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf1/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf1.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/ltf1/index.html",
     status: "ok"
   },
   {
     name: "Learn To Fly 2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/ltf2/index.html",
     status: "ok"
   },
   {
     name: "Learn To Fly 3",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf3.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf3/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf3.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/ltf3/index.html",
     status: "ok"
   },
   {
     name: "Minecraft Classic",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/minecraftclassic.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/minecraftclassic/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/minecraftclassic.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/minecraftclassic/index.html",
     status: "ok"
   },
   {
     name: "Plants Vs. Zombies",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/pvz.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/pvz/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/pvz.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/pvz/index.html",
     status: "ok"
   },
   {
     name: "Riddle School",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddleschool/index.html",
     status: "ok"
   },
   {
     name: "Riddle School 2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddleschool2/index.html",
     status: "ok"
   },
   {
     name: "Riddle School 3",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool3.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool3/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool3.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddleschool3/index.html",
     status: "ok"
   },
   {
     name: "Riddle School 4",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool4.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool4/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool4.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddleschool4/index.html",
     status: "ok"
   },
   {
     name: "Riddle School 5",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool5.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool5/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool5.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddleschool5/index.html",
     status: "ok"
   },
   {
     name: "Riddle Transfer",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddletransfer.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddletransfer/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddletransfer.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddletransfer/index.html",
     status: "ok"
   },
   {
     name: "Riddle Transfer",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddletransfer2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddletransfer2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddletransfer2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/riddletransfer2/index.html",
     status: "ok"
   },
   {
     name: "Run 1",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run1.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run1/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/run1.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/run1/index.html",
     status: "ok"
   },
   {
     name: "Run 2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run2/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/run2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/run2/index.html",
     status: "Broken"
   },
   {
     name: "Run 3",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run3.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run3/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/run3.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/run3/index.html",
     status: "Broken"
   },
   {
     name: "The Binding of Isaac: Wrath of The Lamb",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/tboiwotl.jpeg",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/tboiwotl/index.html",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/tboiwotl.jpeg",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/tboiwotl/index.html",
     status: "ok"
   },
 ];
