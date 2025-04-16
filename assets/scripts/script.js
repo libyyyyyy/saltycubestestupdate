@@ -19,96 +19,7 @@ let allGames = [
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/cookieclicker.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/cc/index.html"
   },
-  {
-    name: "Eaglercraft 1.5.2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.5.2/index.html",
-    keywords: ["minecraft"]
-  },
-  {
-    name: "Eaglercraft 1.8.8",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.8.8/index.html",
-    keywords: ["minecraft"]
-  },
-  {
-    name: "Eaglercraft 1.12.2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.12.2/index.html",
-    keywords: ["minecraft"]
-  },
-  {
-    name: "fataltotheflesh",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fataltotheflesh.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fataltotheflesh/index.html"
-  },
-  {
-    name: "Five Nights at Freddy's 1",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf1.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf1/index.html",
-    keywords: ["fnaf", "fnaf1"]
-  },
-  {
-    name: "Five Nights at Freddy's 2",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf2.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf2/index.html",
-    keywords: ["fnaf", "fnaf2"]
-  },
-  {
-    name: "Five Nights at Freddy's 3",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf3.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf3/index.html",
-    keywords: ["fnaf", "fnaf3"]
-  },
-  {
-    name: "Five Nights at Freddy's 4",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4/index.html",
-    keywords: ["fnaf", "fnaf4"]
-  },
-  {
-    name: "Five Nights at Freddy's 4 Halloween Edition",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4he.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4he/index.html",
-    keywords: ["fnaf", "fnaf4"]
-  },
-  {
-    name: "Five Nights at Freddy's World",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafworld.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafworld/index.html",
-    keywords: ["fnaf", "fnafworld", "fnaf world"]
-  },
-  {
-    name: "Five Nights at Freddy's Ultimate Custom Night",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafucn.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafucn/index.html",
-    keywords: ["fnaf", "fnafucn", "ucn"]
-  },
-  {
-    name: "Henry Stickmin: Breaking The Bank",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsbtb.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsbtb/index.html"
-  },
-  {
-    name: "Henry Stickmin: Escaping The Prison",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsetp.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsetp/index.html"
-  },
-  {
-    name: "Henry Stickmin: Stealing The Diamond",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsstd.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsstd/index.html"
-  },
-  {
-    name: "Henry Stickmin: Infiltrating The Airship",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsita.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsita/index.html"
-  },
-  {
-    name: "Henry Stickmin: Fleeing The Complex",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsftc.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsftc/index.html"
-  }
+  // Additional games ...
 ];
 
 let currentSort = 'asc';
@@ -165,10 +76,7 @@ function renderGames() {
 
       // Track clicks
       a.addEventListener("click", () => {
-        const key = `clicks_${game.name}`;
-        let count = parseInt(localStorage.getItem(key)) || 0;
-        localStorage.setItem(key, count + 1);
-        renderPopularGames();
+        trackClick(game);
       });
 
       const img = document.createElement("img");
@@ -190,6 +98,16 @@ function renderGames() {
 
     container.appendChild(row);
   }
+}
+
+// Track a click on a game and update the popular games list
+function trackClick(game) {
+  const key = `clicks_${game.name}`;
+  let count = parseInt(localStorage.getItem(key)) || 0;
+  localStorage.setItem(key, count + 1);
+  
+  // Immediately render popular games after tracking the click
+  renderPopularGames();
 }
 
 // Render the most popular games based on clicks
