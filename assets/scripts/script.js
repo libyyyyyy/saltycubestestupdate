@@ -125,15 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPopularGames();
 });
 
-function sortByPopularity() {
-  allGames.sort((a, b) => {
-    const aClicks = parseInt(localStorage.getItem(`clicks_${a.name}`)) || 0;
-    const bClicks = parseInt(localStorage.getItem(`clicks_${b.name}`)) || 0;
-    return bClicks - aClicks;
-  });
-  renderGames();
-}
-
 function renderGames() {
   const container = document.getElementById("gamesContainer");
   container.innerHTML = ""; // Clear previous content
@@ -204,16 +195,14 @@ function renderGames() {
 
 function renderPopularGames() {
   const container = document.getElementById("popularGamesContainer");
-  container.innerHTML = ""; // Clear existing
+  container.innerHTML = "";
 
-  // Clone and sort based on localStorage click counts
   const sortedGames = [...allGames].sort((a, b) => {
     const aClicks = parseInt(localStorage.getItem(`clicks_${a.name}`)) || 0;
     const bClicks = parseInt(localStorage.getItem(`clicks_${b.name}`)) || 0;
     return bClicks - aClicks;
   });
 
-  // Show only the top 5
   const top5 = sortedGames.slice(0, 5);
 
   top5.forEach(game => {
@@ -223,13 +212,11 @@ function renderPopularGames() {
     const a = document.createElement("a");
     a.href = game.link;
     a.target = "_blank";
-
-    // Click tracker
     a.addEventListener("click", () => {
       const key = `clicks_${game.name}`;
       const count = parseInt(localStorage.getItem(key)) || 0;
       localStorage.setItem(key, count + 1);
-      renderPopularGames(); // update rankings live!
+      renderPopularGames(); // live update!
     });
 
     const img = document.createElement("img");
@@ -237,7 +224,6 @@ function renderPopularGames() {
     img.alt = game.name;
     img.style.width = "100px";
     img.style.height = "100px";
-    img.style.marginTop = "10px";
 
     const span = document.createElement("span");
     span.className = "gt";
@@ -249,6 +235,10 @@ function renderPopularGames() {
     container.appendChild(div);
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderPopularGames();
+});
 
 function toggleCompactMode() {
   document.querySelectorAll('.gameholder').forEach(game => {
