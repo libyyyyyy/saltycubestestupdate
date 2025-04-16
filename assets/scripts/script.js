@@ -79,12 +79,6 @@ let allGames = [
     keywords: ["fnaf", "fnafworld", "fnaf world"]
   },
   {
-    name: "Five Nights at Freddy's Pizzeria Simulator",
-    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafps.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafps/index.html",
-    keywords: ["fnaf", "fnafps", "fnaf6"]
-  },
-  {
     name: "Five Nights at Freddy's Ultimate Custom Night",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafucn.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafucn/index.html",
