@@ -121,15 +121,16 @@ document.addEventListener("DOMContentLoaded", () => {
     renderGames();
   });
 
-  renderGames(); // <== You were missing this!
+  renderGames();
   renderPopularGames();
 });
 
+// Render all games, filtered and sorted
 function renderGames() {
   const container = document.getElementById("gamesContainer");
   container.innerHTML = ""; // Clear previous content
 
-  // Filter games based on name or keywords
+  // Filter games based on search
   let filtered = allGames.filter(game => {
     const search = normalizeString(currentSearch);
     const nameMatch = normalizeString(game.name).includes(search);
@@ -139,7 +140,7 @@ function renderGames() {
     return nameMatch || keywordMatch;
   });
 
-  // Sort games based on currentSort setting
+  // Sort filtered games
   filtered.sort((a, b) => {
     const nameA = normalizeString(a.name);
     const nameB = normalizeString(b.name);
@@ -147,7 +148,7 @@ function renderGames() {
     else return nameB.localeCompare(nameA);
   });
 
-  // Split into rows of 8 games each
+  // Display the games in rows of 8
   for (let i = 0; i < filtered.length; i += 8) {
     const row = document.createElement("div");
     row.className = "game-row";
@@ -160,6 +161,15 @@ function renderGames() {
 
       const a = document.createElement("a");
       a.href = game.link;
+      a.target = "_blank";
+
+      // Track clicks
+      a.addEventListener("click", () => {
+        const key = `clicks_${game.name}`;
+        let count = parseInt(localStorage.getItem(key)) || 0;
+        localStorage.setItem(key, count + 1);
+        renderPopularGames();
+      });
 
       const img = document.createElement("img");
       img.src = game.image;
@@ -179,32 +189,23 @@ function renderGames() {
     });
 
     container.appendChild(row);
-
-    const a = document.createElement("a");
-    a.href = game.link;
-    a.target = "_blank"; // optional: open in new tab
-
-    // Track clicks
-    a.addEventListener("click", () => {
-      const key = `clicks_${game.name}`;
-      let count = parseInt(localStorage.getItem(key)) || 0;
-      localStorage.setItem(key, count + 1);
-    });
   }
 }
 
+// Render the most popular games based on clicks
 function renderPopularGames() {
   const container = document.getElementById("popularGamesContainer");
   container.innerHTML = "";
 
+  // Sort games by clicks (stored in localStorage)
   const sortedGames = [...allGames].sort((a, b) => {
     const aClicks = parseInt(localStorage.getItem(`clicks_${a.name}`)) || 0;
     const bClicks = parseInt(localStorage.getItem(`clicks_${b.name}`)) || 0;
     return bClicks - aClicks;
   });
 
+  // Display the top 5 most popular games
   const top5 = sortedGames.slice(0, 5);
-
   top5.forEach(game => {
     const div = document.createElement("div");
     div.className = "gameholder";
@@ -212,12 +213,6 @@ function renderPopularGames() {
     const a = document.createElement("a");
     a.href = game.link;
     a.target = "_blank";
-    a.addEventListener("click", () => {
-      const key = `clicks_${game.name}`;
-      const count = parseInt(localStorage.getItem(key)) || 0;
-      localStorage.setItem(key, count + 1);
-      renderPopularGames(); // live update!
-    });
 
     const img = document.createElement("img");
     img.src = game.image;
@@ -236,21 +231,7 @@ function renderPopularGames() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  renderPopularGames();
-});
-
-function toggleCompactMode() {
-  document.querySelectorAll('.gameholder').forEach(game => {
-    game.classList.toggle('compact');
-  });
-}
-
-function sortGames(order) {
-  currentSort = order;
-  renderGames();
-}
-
+// Normalize string for case-insensitive search
 function normalizeString(str) {
   return str
     .toLowerCase()
@@ -258,4 +239,17 @@ function normalizeString(str) {
     .replace(/[-\s]/g, "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
+}
+
+// Sort the games list (A-Z or Z-A)
+function sortGames(order) {
+  currentSort = order;
+  renderGames();
+}
+
+// Toggle compact mode (smaller view)
+function toggleCompactMode() {
+  document.querySelectorAll('.gameholder').forEach(game => {
+    game.classList.toggle('compact');
+  });
 }
