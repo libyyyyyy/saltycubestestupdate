@@ -2,112 +2,228 @@ let allGames = [
   {
     name: "Baldi's Basics",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/baldisbasics.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/baldisbasics/index.html",
+    status: "ok"
   },
   {
     name: "Bloons TD 4",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/btd4.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd4/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd4/index.html",
+    status: "ok"
   },
   {
     name: "Bloons TD 5",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/btd5.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd5/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/btd5/index.html",
+    status: "ok"
   },
   {
     name: "Cookie Clicker",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/cookieclicker.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/cc/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/cc/index.html",
+    status: "ok"
   },
   {
     name: "Eaglercraft 1.5.2",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.5.2/index.html",
-    keywords: ["minecraft"]
+    keywords: ["minecraft"],
+    status: "ok"
   },
   {
     name: "Eaglercraft 1.8.8",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.8.8/index.html",
-    keywords: ["minecraft"]
+    keywords: ["minecraft"],
+    status: "ok"
   },
   {
     name: "Eaglercraft 1.12.2",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/eaglercraft.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/eaglercraft1.12.2/index.html",
-    keywords: ["minecraft"]
+    keywords: ["minecraft"],
+    status: "ok"
   },
   {
     name: "fataltotheflesh",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fataltotheflesh.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fataltotheflesh/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fataltotheflesh/index.html",
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's 1",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf1.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf1/index.html",
-    keywords: ["fnaf", "fnaf1"]
+    keywords: ["fnaf", "fnaf1"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's 2",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf2.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf2/index.html",
-    keywords: ["fnaf", "fnaf2"]
+    keywords: ["fnaf", "fnaf2"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's 3",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf3.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf3/index.html",
-    keywords: ["fnaf", "fnaf3"]
+    keywords: ["fnaf", "fnaf3"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's 4",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4/index.html",
-    keywords: ["fnaf", "fnaf4"]
+    keywords: ["fnaf", "fnaf4"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's 4 Halloween Edition",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnaf4he.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnaf4/index.html",
-    keywords: ["fnaf", "fnaf4", "fnaf4he"]
+    keywords: ["fnaf", "fnaf4", "fnaf4he"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's World",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafworld.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafworld/index.html",
-    keywords: ["fnaf", "fnafworld", "fnafworld"]
+    keywords: ["fnaf", "fnafworld", "fnafworld"],
+    status: "ok"
   },
   {
     name: "Five Nights at Freddy's Ultimate Custom Night",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/fnafucn.png",
     link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/fnafucn/index.html",
-    keywords: ["fnaf", "fnafucn", "ucn"]
+    keywords: ["fnaf", "fnafucn", "ucn"],
+    status: "ok"
   },
   {
     name: "Henry Stickmin: Breaking The Bank",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsbtb.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsbtb/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsbtb/index.html",
+    status: "ok"
   },
   {
     name: "Henry Stickmin: Escaping The Prison",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsetp.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsetp/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsetp/index.html",
+    status: "ok"
   },
   {
     name: "Henry Stickmin: Fleeing The Complex",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsftc.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsftc/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsftc/index.html",
+    status: "ok"
   },
   {
     name: "Henry Stickmin: Infiltrating The Airship",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsita.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsita/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsita/index.html",
+    status: "ok"
   },
   {
     name: "Henry Stickmin: Stealing The Diamond",
     image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/hsstd.png",
-    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsstd/index.html"
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/hsstd/index.html",
+    status: "ok"
+  },
+  {
+    name: "Learn To Fly 1",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf1.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf1/index.html",
+    status: "ok"
+  },
+  {
+    name: "Learn To Fly 2",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf2.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf2/index.html",
+    status: "ok"
+  },
+  {
+    name: "Learn To Fly 3",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/ltf3.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/ltf3/index.html",
+    status: "ok"
+  },
+  {
+    name: "Minecraft Classic",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/minecraftclassic.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/minecraftclassic/index.html",
+    status: "ok"
+  },
+  {
+    name: "Plants Vs. Zombies",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/pvz.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/pvz/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle School",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle School 2",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool2.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool2/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle School 3",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool3.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool3/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle School 4",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool4.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool4/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle School 5",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddleschool5.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddleschool5/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle Transfer",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddletransfer.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddletransfer/index.html",
+    status: "ok"
+  },
+  {
+    name: "Riddle Transfer",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/riddletransfer2.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/riddletransfer2/index.html",
+    status: "ok"
+  },
+  {
+    name: "Run 1",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run1.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run1/index.html",
+    status: "ok"
+  },
+  {
+    name: "Run 2",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run2.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run2/index.html",
+    status: "Broken"
+  },
+  {
+    name: "Run 3",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/run3.png",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/run3/index.html",
+    status: "Broken"
+  },
+  {
+    name: "The Binding of Isaac: Wrath of The Lamb",
+    image: "https://libyyyyyy.github.io/saltycubestestupdate/assets/images/tboiwotl.jpeg",
+    link: "https://libyyyyyy.github.io/saltycubestestupdate/assets/games/tboiwotl/index.html",
+    status: "ok"
   },
 ];
 
@@ -130,8 +246,7 @@ function renderGames() {
   const container = document.getElementById("gamesContainer");
   container.innerHTML = ""; // Clear previous content
 
-  // Filter games based on search
-  let filtered = allGames.filter(game => {
+  const filtered = allGames.filter(game => {
     const search = normalizeString(currentSearch);
     const nameMatch = normalizeString(game.name).includes(search);
     const keywordMatch = (game.keywords || []).some(keyword =>
@@ -140,15 +255,12 @@ function renderGames() {
     return nameMatch || keywordMatch;
   });
 
-  // Sort filtered games
   filtered.sort((a, b) => {
     const nameA = normalizeString(a.name);
     const nameB = normalizeString(b.name);
-    if (currentSort === 'asc') return nameA.localeCompare(nameB);
-    else return nameB.localeCompare(nameA);
+    return currentSort === 'asc' ? nameA.localeCompare(nameB) : nameB.localeCompare(nameA);
   });
 
-  // Display the games in rows of 8
   for (let i = 0; i < filtered.length; i += 8) {
     const row = document.createElement("div");
     row.className = "game-row";
@@ -158,43 +270,47 @@ function renderGames() {
     gamesInRow.forEach(game => {
       const div = document.createElement("div");
       div.className = "gameholder";
+      div.style.position = "relative";
 
-      // Choose container: <a> if ok, otherwise a <div> (no link)
-      let wrapper;
-      if (game.status === "ok") {
-        wrapper = document.createElement("a");
-        wrapper.href = game.link;
-        wrapper.target = "_blank";
-        wrapper.addEventListener("click", () => trackClick(game));
-      } else {
-        wrapper = document.createElement("div");
-        wrapper.style.cursor = "not-allowed"; // hint
-      }
-
-      // Image + title
       const img = document.createElement("img");
       img.src = game.image;
       img.alt = game.name;
+      img.style.width = "120px";
+      img.style.height = "120px";
+      img.style.marginTop = "10px";
 
       const span = document.createElement("span");
       span.className = "gt";
       span.textContent = game.name;
 
-      wrapper.appendChild(img);
-      wrapper.appendChild(span);
-      div.appendChild(wrapper);
+      const status = game.status || "ok";
 
-      // If blocked/broken, overlay the label
-      if (game.status !== "ok") {
+      if (status === "ok") {
+        const a = document.createElement("a");
+        a.href = game.link;
+        a.target = "_blank";
+
+        a.addEventListener("click", () => {
+          trackClick(game);
+        });
+
+        a.appendChild(img);
+        div.appendChild(a);
+      } else {
+        div.appendChild(img);
         const overlay = document.createElement("div");
         overlay.className = "overlay";
-        overlay.textContent = game.status === "blocked" ? "Blocked" : "Broken";
+        overlay.textContent = status.toUpperCase();
         div.appendChild(overlay);
       }
 
+      div.appendChild(span);
       row.appendChild(div);
     });
-  }}
+
+    container.appendChild(row);
+  }
+}
 
     // Track a click on a game and update the popular games list
     function trackClick(game) {
