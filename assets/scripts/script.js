@@ -24,6 +24,12 @@ let allGames = [
     status: "ok"
   },
   {
+    name: "Crazy Cattle 3D",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/crazycattle3d.png",
+    link: "https://crazycattle3d.github.io",
+    status: "ok"
+  },
+  {
     name: "Eaglercraft 1.5.2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/eaglercraft.png",
     link: "https://libyyyyyy.github.io/saltycubes/assets/games/eaglercraft1.5.2/index.html",
@@ -223,6 +229,36 @@ let allGames = [
     name: "The Binding of Isaac: Wrath of The Lamb",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/tboiwotl.jpeg",
     link: "https://libyyyyyy.github.io/saltycubes/assets/games/tboiwotl/index.html",
+    status: "ok"
+  },
+  {
+    name: "The World's Hardest Game",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/worldshardestgame/index.html",
+    status: "ok"
+  },
+  {
+    name: "The World's Hardest Game 2",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame2.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/worldshardestgame2/index.html",
+    status: "ok"
+  },
+  {
+    name: "The World's Hardest Game 3",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame3.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/worldshardestgame3/index.html",
+    status: "ok"
+  },
+  {
+    name: "The World's Hardest Game 4",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame4.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/worldshardestgame4/index.html",
+    status: "ok"
+  },
+  {
+    name: "The Impossible Quiz",
+    image: "https://libyyyyyy.github.io/saltycubes/assets/images/impossiblequiz.png",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/impossiblequiz/index.html",
     status: "ok"
   },
 ];
