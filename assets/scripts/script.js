@@ -27,7 +27,7 @@ let allGames = [
     name: "Chrome Dinosaur Game",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/dinogame.png",
     link: "https://libyyyyyy.github.io/saltycubes/assets/games/dinogame/index.html",
-    status: "ok"
+    status: "broken"
   },
   {
     name: "Crazy Cattle 3D",
