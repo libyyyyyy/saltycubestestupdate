@@ -312,16 +312,12 @@ function renderGames() {
     gamesInRow.forEach(game => {
       const div = document.createElement("div");
       div.className = "gameholder";
-      div.style.position = "relative";
 
       const img = document.createElement("img");
       img.src = game.image;
       img.alt = game.name;
-      img.style.width = "120px";
-      img.style.height = "120px";
-      img.style.marginTop = "10px";
 
-      const span = document.createElement("span");
+      const span = document.createElement("div");
       span.className = "gt";
       span.textContent = game.name;
 
@@ -331,12 +327,10 @@ function renderGames() {
         const a = document.createElement("a");
         a.href = game.link;
         a.target = "_blank";
-
+        a.appendChild(img);
         a.addEventListener("click", () => {
           trackClick(game);
         });
-
-        a.appendChild(img);
         div.appendChild(a);
       } else {
         div.appendChild(img);
