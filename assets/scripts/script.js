@@ -229,7 +229,7 @@ let allGames = [
     name: "Run 3",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/run3.png",
     link: "https://libyyyyyy.github.io/saltycubes/assets/games/run3/index.html",
-    status: "Broken"
+    status: "ok"
   },
   {
     name: "The Binding of Isaac: Wrath of The Lamb",
