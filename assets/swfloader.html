@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SWF Loader</title>
+  <link rel="stylesheet" href="styles/style.css"> <!-- Assuming your CSS is saved in styles.css -->
+</head>
+<body>
+  <div id="main">
+    <!-- Top Bar -->
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+      <img src="images/image.png" alt="Site Logo">
+      <a href="index.html">
+        <button id="button">← Back to Main Page</button>
+      </a>
+    </div>
+
+    <!-- SWF Player Area -->
+    <div id="flash-container" style="display: flex; justify-content: center; align-items: center; height: 720px;"></div>
+  </div>
+
+  <!-- Ruffle Player Script -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    function getSWFFile() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('file');
+    }
+
+    const file = getSWFFile();
+    if (file) {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      player.style.width = "100%";
+      player.style.maxWidth = "960px";
+      player.style.height = "100%";
+      player.style.maxHeight = "720px";
+      player.style.border = "none";
+      document.getElementById("flash-container").appendChild(player);
+      player.load(file);
+    } else {
+      document.getElementById("flash-container").innerHTML = "<h2 style='color: white; font-family: monospace;'>No SWF file specified.</h2>";
+    }
+  </script>
+</body>
+</html>
