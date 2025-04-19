@@ -6,14 +6,12 @@
   <link rel="stylesheet" href="styles/style.css"> <!-- Assuming your CSS is saved in styles.css -->
 </head>
 <body>
-  <div id="main">
-    <!-- Top Bar -->
-    <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
-      <img src="images/image.png" alt="Site Logo">
+  <center>
+  <img src="images/image.png" alt="Site Logo">
       <a href="index.html">
         <button id="button">← Back to Main Page</button>
       </a>
-    </div>
+  <div id="main">
 
     <!-- SWF Player Area -->
     <div id="flash-container" style="display: flex; justify-content: center; align-items: center; height: 720px;"></div>
@@ -36,11 +34,13 @@
       player.style.height = "100%";
       player.style.maxHeight = "720px";
       player.style.border = "none";
+      player.style.backgroundColor = "transparent";
       document.getElementById("flash-container").appendChild(player);
       player.load(file);
     } else {
       document.getElementById("flash-container").innerHTML = "<h2 style='color: white; font-family: monospace;'>No SWF file specified.</h2>";
     }
   </script>
+  </center>
 </body>
 </html>
