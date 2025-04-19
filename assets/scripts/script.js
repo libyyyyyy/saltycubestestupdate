@@ -8,13 +8,13 @@ let allGames = [
   {
     name: "Bloons TD 4",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/btd4.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/btd4.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/btd4.swf",
     status: "ok"
   },
   {
     name: "Bloons TD 5",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/btd5.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/btd5.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/btd5.swf",
     status: "ok"
   },
   {
@@ -114,49 +114,49 @@ let allGames = [
   {
     name: "Henry Stickmin: Breaking The Bank",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsbtb.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/hsbtb.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/hsbtb.swf",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Escaping The Prison",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsetp.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/hsetp.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/hsetp.swf",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Fleeing The Complex",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsftc.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/hsftc.swf,
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/hsftc.swf",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Infiltrating The Airship",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsita.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/hsita.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/hsita.swf",
     status: "ok"
   },
   {
     name: "Henry Stickmin: Stealing The Diamond",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/hsstd.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/hsstd.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/hsstd.swf",
     status: "ok"
   },
   {
     name: "Learn To Fly 1",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf1.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/ltf1.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/ltf1.swf",
     status: "ok"
   },
   {
     name: "Learn To Fly 2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf2.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/ltf2.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/ltf2.swf",
     status: "ok"
   },
   {
     name: "Learn To Fly 3",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/ltf3.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/ltf3.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/ltf3.swf",
     status: "ok"
   },
   {
@@ -174,97 +174,97 @@ let allGames = [
   {
     name: "Riddle School",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddleschool.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddleschool.swf",
     status: "ok"
   },
   {
     name: "Riddle School 2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool2.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddleschool2.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddleschool2.swf",
     status: "ok"
   },
   {
     name: "Riddle School 3",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool3.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/games/swfloader.html?file=games/swfs/riddleschool3.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/games/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddleschool3.swf",
     status: "ok"
   },
   {
     name: "Riddle School 4",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool4.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddleschool4.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddleschool4.swf",
     status: "ok"
   },
   {
     name: "Riddle School 5",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddleschool5.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddleschool5.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddleschool5.swf",
     status: "ok"
   },
   {
     name: "Riddle Transfer",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddletransfer.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddletransfer.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddletransfer.swf",
     status: "ok"
   },
   {
-    name: "Riddle Transfer",
+    name: "Riddle Transfer 2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/riddletransfer2.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/riddletransfer2.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/riddletransfer2.swf",
     status: "ok"
   },
   {
     name: "Run 1",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/run1.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/run1.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/run1.swf",
     status: "ok"
   },
   {
     name: "Run 2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/run2.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/run2.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/run2.swf",
     status: "Broken"
   },
   {
     name: "Run 3",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/run3.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/run3.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/run3.swf",
     status: "ok"
   },
   {
     name: "The Binding of Isaac: Wrath of The Lamb",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/tboiwotl.jpeg",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/tboiwotl.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/tboiwotl.swf",
     status: "ok"
   },
   {
     name: "The World's Hardest Game",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/worldshardestgame.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/worldshardestgame.swf",
     status: "ok"
   },
   {
     name: "The World's Hardest Game 2",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame2.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/worldshardestgame2.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/worldshardestgame2.swf",
     status: "ok"
   },
   {
     name: "The World's Hardest Game 3",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame3.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/worldshardestgame3.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/worldshardestgame3.swf",
     status: "ok"
   },
   {
     name: "The World's Hardest Game 4",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/worldshardestgame4.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/worldshardestgame4.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/worldshardestgame4.swf",
     status: "ok"
   },
   {
     name: "The Impossible Quiz",
     image: "https://libyyyyyy.github.io/saltycubes/assets/images/impossiblequiz.png",
-    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=games/swfs/impossiblequiz.swf",
+    link: "https://libyyyyyy.github.io/saltycubes/assets/swfloader.html?file=https://libyyyyyy.github.io/saltycubes/assets/games/swfs/impossiblequiz.swf",
     status: "ok"
   },
 ];

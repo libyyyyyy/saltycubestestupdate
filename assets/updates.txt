@@ -1,2 +1,4 @@
 (V.1.0.0 - Full Release)
 Finished the new site, fixed cookie clicker, added World's Hardest Game alongside The Impossible Quiz, plus some extra stuff. Theres also indicators on if a game is broken or blocked now.
+
+(V.1.0.1 - Hopefully Fixed)
